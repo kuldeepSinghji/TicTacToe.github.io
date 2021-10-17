@@ -214,6 +214,7 @@ hr{
         width: 90%;
         margin: 20px auto;
         margin-bottom: 10px;
+        display:block;
     }
     
 }
