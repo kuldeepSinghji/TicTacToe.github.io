@@ -216,5 +216,7 @@ hr{
         margin-bottom: 10px;
         display:block;
     }
-    
+    #reset{
+        font-size:14px
+    }
 }
