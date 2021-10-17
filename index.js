@@ -30,7 +30,7 @@ const checkWin = ()=>{
             document.getElementById("message").classList.remove("messageRemove");
             setTimeout(() => {
                 document.getElementById("message").classList.add("messageRemove")
-            }, 1500);
+            }, 3000);
             win.play();
         }
     })
@@ -49,9 +49,6 @@ Array.from(box).forEach(element=>{
         if(turn ==="0"){
             boxText.style.color = "black";
         }
-        // if(boxText.innerText === "X" || boxText.innerText === "0"){
-        //     console.log(boxText)
-        // }
         checkWin();
         if(!gameOver){
             document.getElementsByClassName("info")[0].innerHTML = "Turn of  " + `<span class="red">${turn}</span>`;
